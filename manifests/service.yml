@@ -1,1 +1,0 @@
-apiVersion: v1kind: Servicemetadata:    name: k8sdemospec:    type: LoadBalancer    ports:    - port: 8080     selector:        app: k8sdemo
